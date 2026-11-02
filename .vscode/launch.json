@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Python Debugger: odoo 18 with arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/Users/username/odoo/odoo-bin",
+            "python": "/Users/nitinthakur/odoo-dev/odoo-env/bin/python3",
+            "console": "integratedTerminal",
+            "args": ["--config=/Users/nitinthakur/odoo-dev/odoo/addons,/Users/nitinthakur/odoo-dev/custom-addons/ODOO18-MODULE-DEVELOPMENT/odoo.conf"]
+        }
+    ]
+}
